@@ -59,7 +59,7 @@ test('E2E order', async ({ page }) => {
     await cartPage.verifyOrderMsg(page)
 })
 
-test.only('Verify Order Total ', async ({ page }) => {
+test('Verify Order Total ', async ({ page }) => {
 
     const excelData = await Utils.readExcelData(filepath, sheetName)
 
